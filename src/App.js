@@ -21,15 +21,20 @@ function App() {
   return (
     <div className="container">
       <Logo />
+      <div className="displayBox"></div>
       <div className="App">
-        <SpecialButton />
-        <OperatorsButton />
-        <NumberButton />
+        <div className="leftSide">
+          <SpecialButton />
+          <NumberButton />
+        </div>
+        <div className="rightSide">
+          <OperatorsButton />
+        </div>
 
 
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
       </div>
-    </div>
+    </div >
   );
 }
 

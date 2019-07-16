@@ -1,15 +1,66 @@
-.numbersBox{
-    height: 200px;
-    width:auto;
+.container {
+width:330px;
+margin: 100px auto;
+background:rgb(241, 78, 78);
+border-radius: 18px;
+
 }
-.specialsBox{}
-.operatorsBox{}
+
+ 
+
+    .logo-container {
+    height: 50px;
+    width: 270px;
+    padding:20px 35px 0px 35px;
+
+    }
+    .logo{
+        padding-top:10px;
+        width:100px;
+        height: auto;
+    }
+
+
+
+.App {
+    display:flex;
+    padding:25px;
+
+    width:100%;
+    height:auto;
+}
+
+.displayBox{
+    height: 50px;
+    width: 270px;
+    background:rgb(102, 102, 102);
+    margin:auto;
+    border-radius: 28px;
+}
+
+.numbersBox{
+    /* width:auto; */
+    display:flex;
+    width: 225px;
+    flex-wrap: wrap;
+
+}
+.specialsBox{
+    /* width:auto; */
+}
+.operatorsBox{
+    /* width:auto; */
+    display:flex;
+    flex-direction: column;
+
+}
 
 .button {
     color:white;
     border-radius: 100px;
     width: 60px;
-    height: 50px;
+    height: 60px;
+    margin:4px 7px;
 }
 .specials {
 background: rgb(65, 65, 190);
@@ -17,13 +68,10 @@ background: rgb(65, 65, 190);
 .numbers {
 background: rgb(23, 23, 165);
 }
+.numbers:nth-last-child(2){
+    width:135px;
+}
 .operators {
-background: rgb(94, 94, 202);
+background: rgb(141, 141, 226);
 }
 
-.container {
-width:200px;
-height:600px;
-margin: 0 auto;
-
-}
