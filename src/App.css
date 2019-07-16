@@ -1,0 +1,29 @@
+.numbersBox{
+    height: 200px;
+    width:auto;
+}
+.specialsBox{}
+.operatorsBox{}
+
+.button {
+    color:white;
+    border-radius: 100px;
+    width: 60px;
+    height: 50px;
+}
+.specials {
+background: rgb(65, 65, 190);
+}
+.numbers {
+background: rgb(23, 23, 165);
+}
+.operators {
+background: rgb(94, 94, 202);
+}
+
+.container {
+width:200px;
+height:600px;
+margin: 0 auto;
+
+}
