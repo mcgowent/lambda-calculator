@@ -1,91 +1,82 @@
 .container {
-width:330px;
-margin: 100px auto;
-background:rgb(241, 78, 78);
-border-radius: 18px;
-
+  width: 330px;
+  margin: 100px auto;
+  background: rgb(241, 78, 78);
+  border-radius: 18px;
 }
 
- 
-
-    .logo-container {
-    height: 50px;
-    width: 270px;
-    padding:20px 35px 0px 35px;
-
-    }
-    .logo{
-        padding-top:10px;
-        width:100px;
-        height: auto;
-    }
-
-
+.logo-container {
+  height: 50px;
+  width: 270px;
+  padding: 20px 35px 0px 35px;
+}
+.logo {
+  padding-top: 10px;
+  width: 100px;
+  height: auto;
+}
 
 .App {
-    display:flex;
-    padding:25px;
+  display: flex;
+  padding: 25px;
 
-    width:100%;
-    height:auto;
+  width: 100%;
+  height: auto;
 }
 
-.display{
-    display:flex;
-    justify-content: flex-end;
-    align-items: center;
+.display {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 
-    color:white;
-    padding-right: 35px;
-    font-size: 50px;
+  color: white;
+  padding-right: 35px;
+  font-size: 50px;
 }
 
-.displayBox{
-    height: 70px;
-    width: 270px;
-    background:rgb(102, 102, 102);
-    margin:auto;
-    border-radius: 28px;
+.displayBox {
+  height: 70px;
+  width: 270px;
+  background: rgb(102, 102, 102);
+  margin: auto;
+  border-radius: 28px;
 
-    display:flex;
-    justify-content: flex-end;
-    align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
-.numbersBox{
-    /* width:auto; */
-    display:flex;
-    width: 225px;
-    flex-wrap: wrap;
-
+.numbersBox {
+  /* width:auto; */
+  display: flex;
+  width: 225px;
+  flex-wrap: wrap;
 }
-.specialsBox{
-    /* width:auto; */
+.specialsBox {
+  /* width:auto; */
 }
-.operatorsBox{
-    /* width:auto; */
-    display:flex;
-    flex-direction: column;
-
+.operatorsBox {
+  /* width:auto; */
+  display: flex;
+  flex-direction: column;
 }
 
 .button {
-    color:white;
-    border-radius: 100px;
-    width: 60px;
-    height: 60px;
-    margin:4px 7px;
+  color: white;
+  border-radius: 100px;
+  width: 60px;
+  height: 60px;
+  margin: 4px 7px;
 }
 .specials {
-background: rgb(65, 65, 190);
+  background: rgb(65, 65, 190);
 }
 .numbers {
-background: rgb(23, 23, 165);
+  background: rgb(23, 23, 165);
 }
-.numbers:nth-last-child(2){
-    width:135px;
+.numbers:nth-last-child(2) {
+  width: 135px;
 }
 .operators {
-background: rgb(141, 141, 226);
+  background: rgb(141, 141, 226);
 }
-
