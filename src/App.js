@@ -3,6 +3,8 @@ import "./App.css";
 import NumberButton from "./components/ButtonComponents/NumberButtons/NumberButton"
 import SpecialButton from "./components/ButtonComponents/SpecialButtons/SpecialButton"
 import OperatorsButton from "./components/ButtonComponents/OperatorButtons/OperatorButton"
+import Display from "./components/DisplayComponents/Display"
+
 
 
 // STEP 4 - import the button and display components
@@ -21,8 +23,11 @@ function App() {
   return (
     <div className="container">
       <Logo />
-      <div className="displayBox"></div>
+      <div className="displayBox">
+        <Display />
+      </div>
       <div className="App">
+
         <div className="leftSide">
           <SpecialButton />
           <NumberButton />
@@ -30,7 +35,6 @@ function App() {
         <div className="rightSide">
           <OperatorsButton />
         </div>
-
 
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
       </div>

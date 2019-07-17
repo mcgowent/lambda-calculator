@@ -30,12 +30,26 @@ border-radius: 18px;
     height:auto;
 }
 
+.display{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    color:white;
+    padding-right: 35px;
+    font-size: 50px;
+}
+
 .displayBox{
-    height: 50px;
+    height: 70px;
     width: 270px;
     background:rgb(102, 102, 102);
     margin:auto;
     border-radius: 28px;
+
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .numbersBox{
